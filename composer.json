@@ -1,0 +1,31 @@
+{
+    "name": "tka/seffaf-portal-api",
+    "description": "Ankara Buyuksehir Belediyesi Seffaf Portal API Client",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["ankara", "belediye", "seffaf", "portal", "api", "gis"],
+    "homepage": "https://github.com/tka/seffaf-portal-api",
+    "authors": [
+        {
+            "name": "TKA",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-curl": "*",
+        "ext-openssl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SeffafPortal\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SeffafPortal\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
